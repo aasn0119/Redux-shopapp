@@ -1,7 +1,7 @@
 import { FaShoppingCart } from "react-icons/fa";
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
-import logo from "./Assets/logo.png";
+import logo from "./assets/logo.png";
 
 const Navbar = () => {
   const { cart } = useSelector((state) => state);
